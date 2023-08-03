@@ -1,0 +1,50 @@
+.main-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  /* Rest of your existing styles */
+
+.content-left {
+    flex: 1;
+    text-align: left;
+  }
+  
+  /* Add or update any other styles as needed */
+  
+  .content-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .animated-text {
+    animation: slide-in 2s ease infinite;
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(10%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  /* MainContent.css */
+.yellow-container {
+  background-color: #f0ad4e;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.zoom-button:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+  }
+  
